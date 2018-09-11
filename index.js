@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 function moveDodgerRight(){
-  var rightNumbers = dodger.style.left.replace("px","")
+  var rightNumbers = dodger.style.right.replace("px","")
   var right = parseInt(rightNumbers,10)
   
   if (right<360){
