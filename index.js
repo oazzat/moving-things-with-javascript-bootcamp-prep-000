@@ -8,3 +8,7 @@ function moveDodgerRight(){
     dodger.style.right = `${left - 1}px`
   }
 }
+
+document.addEventListener('keydown',function(key){
+  if(key.which === )
+})
